@@ -1,11 +1,14 @@
 import React from "react";
 
 const App = () => {
+  let friends = ["Harry", "Ron", "Snap"];
   return (
     <div>
-      <h1>My Profile</h1>
-      <p>My name is Mike.</p>
-      <p>I am 25 years old.</p>
+      <h1>{Math.Random() * 100}</h1>
+      <p>My friends are: </p>
+      {friends.map((friend) => {
+        return <p>{friend}</p>;
+      })}
     </div>
   );
 };
