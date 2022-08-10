@@ -13,6 +13,9 @@ const Nav = () => {
         <li>
           <a href="/#">Contact</a>
         </li>
+        <li>
+          <a href="/#">Another Link</a>
+        </li>
       </ul>
     </nav>
   );
